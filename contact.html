@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Your Electrical Company</title>
+<meta name="description" content="Book an electrician or request a quote. Emergency line answered 24/7.">
+<meta property="og:title" content="Contact | Your Electrical Company">
+<meta property="og:description" content="Book an electrician or request a quote. Emergency line answered 24/7.">
+<link rel="icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="alert"><a href="tel:+27820000000">Electrical emergency? Call 082 000 0000, answered 24/7</a></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><!-- EDIT: or <img src="images/logo-white.png" alt="Your Electrical Company"> -->Your Electrical Company</a>
+  <input type="checkbox" id="menu-toggle" aria-label="Open menu"><label for="menu-toggle" class="burger">Menu</label>
+  <nav><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="btn" href="contact.html">Enquire now</a></nav>
+</header>
+<main>
+<section class="page-head"><h1>Enquire now</h1><p>Tell us what you need. We reply within one business day, and emergencies are answered immediately.</p></section>
+<section class="band"><div class="split top"><div class="formcard"><form action="https://api.web3forms.com/submit" method="POST"><input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY"><!-- EDIT: your Web3Forms access key -->
+<input type="hidden" name="subject" value="New electrical enquiry from the website"><input type="hidden" name="from_name" value="Your Electrical Company website">
+<input type="hidden" name="redirect" value="https://yourdomain.co.za/thank-you.html"><!-- EDIT: your live thank-you page -->
+<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
+<label for="n">Your name</label><input id="n" name="name" required>
+<label for="p">Phone</label><input id="p" name="phone" type="tel" required>
+<label for="e">Email</label><input id="e" name="email" type="email" required>
+<label for="s">What do you need?</label><select id="s" name="service"><option>Residential</option><option>Commercial</option><option>Servicing and maintenance</option><option>Inspections and certificates</option><option>Solar and backup power</option><option>Air conditioning</option><option>Emergency electrical</option><option>Something else</option></select>
+<label for="a">Suburb</label><input id="a" name="suburb">
+<label for="m">Tell us about the job</label><textarea id="m" name="message" rows="5" required></textarea>
+<button class="btn" type="submit">Send enquiry</button><p class="small">We use your details only to respond. See our <a href="privacy.html">privacy policy</a>.</p></form></div><div><h2>Electrical emergency?</h2><p><a class="big" href="tel:+27820000000">082 000 0000</a><br>Answered 24/7</p><h3>Office</h3><p><a href="tel:+27100000000">010 000 0000</a><br><a href="mailto:info@yourdomain.co.za">info@yourdomain.co.za</a><br>Your street address, Gauteng<br>Mon to Fri, 7:30 to 16:30</p><h3>What happens next</h3><ol class="steps"><li>We confirm your details and the job.</li><li>An electrician is scheduled or dispatched.</li><li>You receive a written quote before work begins.</li></ol></div></div></section>
+</main>
+<footer class="site-footer">
+  <div><strong class="brand">Your Electrical Company</strong><p>Registered electricians for homes, businesses and property managers. Safe installations, clear quotes and certified work.</p>
+  <p><a href="tel:+27100000000">010 000 0000</a><a href="mailto:info@yourdomain.co.za">info@yourdomain.co.za</a>Your street address, Gauteng<br>Mon to Fri 7:30 to 16:30, emergencies 24/7</p></div>
+  <div><strong>Services</strong><a href="services.html">Residential</a><a href="services.html">Commercial</a><a href="services.html">Servicing and maintenance</a><a href="services.html">Inspections and certificates</a><a href="services.html">Solar and backup power</a><a href="services.html">Air conditioning</a></div>
+  <div><strong>Company</strong><a href="about.html">About us</a><a href="contact.html">Enquire now</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms and conditions</a><a href="cookies.html">Cookie policy</a><a href="disclaimer.html">Disclaimer</a><!-- EDIT: add real social links --></div>
+  <p class="copy">&copy; 2026 Your Electrical Company. All rights reserved.</p>
+</footer>
+<div id="cookie-banner" hidden><p>We use cookies to make this site work. Analytics only run if you accept. <a href="cookies.html">Cookie policy</a></p><button class="btn" data-c="accepted">Accept</button><button class="btn line" data-c="essential">Essential only</button></div>
+<script src="script.js"></script>
+</body>
+</html>

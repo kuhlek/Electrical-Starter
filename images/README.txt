@@ -1,0 +1,1 @@
+hero.jpg 1920x1080 | about.jpg 1600x900 | logo-white.png | favicon.png | service photos 1200x900 named like residential.jpg, commercial.jpg, servicing-maintenance.jpg, solar-backup-power.jpg, air-conditioning.jpg, electrical-inspections.jpg (and -intro.jpg versions on the full package)
